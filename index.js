@@ -9,7 +9,7 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
 if(leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
-    render(myLeaads)//passing 'myLeads' as arguement
+    render(myLeads)//passing 'myLeads' as arguement
 }
 
 tabBtn.addEventListener("click", function (){
